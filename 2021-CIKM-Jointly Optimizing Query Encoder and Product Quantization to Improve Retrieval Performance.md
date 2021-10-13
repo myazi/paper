@@ -7,7 +7,7 @@
 <img src="./pic/8992999eb17dfaa303b54ae274c9d0dd.png" style="zoom:100%;" align="mid"/>
 
  
-##### **Product Quantization (乘积量化)**
+**1）Product Quantization (乘积量化)**
 
 将$S\subset R^{D}$的$D$维向量按笛卡尔积划分为$M$个子空间，每个子空间维度为$\frac{D}{M}$，然后在每个子空间做量化(K类聚类)，得到如下类中心：
 $$
