@@ -4,7 +4,7 @@
 
 ##### **Model**
 
-<img src="./pic/8992999eb17dfaa303b54ae274c9d0dd.png" style="zoom:100%;" align="left"/>
+<img src="./pic/8992999eb17dfaa303b54ae274c9d0dd.png" style="zoom:100%;" align="mid"/>
 
  
 ##### **Product Quantization (乘积量化)**
@@ -29,13 +29,13 @@ $$
 
 **2)PQ Centroid Optimization (量化质心点优化)**
 
-<img src="./pic/458d29e6c1961efe48665bed998d1f2a.png" alt="458d29e6c1961efe48665bed998d1f2a" style="zoom:100%;" align="left"/>
+<img src="./pic/458d29e6c1961efe48665bed998d1f2a.png" alt="458d29e6c1961efe48665bed998d1f2a" style="zoom:100%;" align="mid"/>
 
-<img src="./pic/460966857220cbb3d84e1a20056e9a85.png" alt="460966857220cbb3d84e1a20056e9a85" style="zoom:100%;" align="left"/>
+<img src="./pic/460966857220cbb3d84e1a20056e9a85.png" alt="460966857220cbb3d84e1a20056e9a85" style="zoom:100%;" align="mid"/>
 
 ##### **Experiments**
 
-<img src="./pic/bd3a3a88707c636d8fccbaee077c811b.png" alt="bd3a3a88707c636d8fccbaee077c811b" style="zoom:100%;" align="left"/>
+<img src="./pic/bd3a3a88707c636d8fccbaee077c811b.png" alt="bd3a3a88707c636d8fccbaee077c811b" style="zoom:100%;" align="mid"/>
 
 
 
