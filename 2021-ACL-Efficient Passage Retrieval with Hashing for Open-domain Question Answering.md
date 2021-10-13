@@ -4,13 +4,13 @@
 
 #### **模型**
 
-<img src="./pic/77e8833df8368fb44d2569691ee407e0.png" alt="41e407a2c26d87383010c2654b0b97ed" style="zoom:60%;" align="left"/>
+<img src="./pic/77e8833df8368fb44d2569691ee407e0.png" alt="41e407a2c26d87383010c2654b0b97ed" style="zoom:60%;" align="mid"/>
 
 **1、Dense Passage Retriever（DPR）**
 
-<img src="./pic/d94748dc87066c641388161d71bfba67.png" alt="41e407a2c26d87383010c2654b0b97ed" style="zoom:50%;" align="left"/>
+<img src="./pic/d94748dc87066c641388161d71bfba67.png" alt="41e407a2c26d87383010c2654b0b97ed" style="zoom:50%;" align="mid"/>
 
-<img src="./pic/41e407a2c26d87383010c2654b0b97ed.png" alt="41e407a2c26d87383010c2654b0b97ed" style="zoom:50%;" align="left"/>
+<img src="./pic/41e407a2c26d87383010c2654b0b97ed.png" alt="41e407a2c26d87383010c2654b0b97ed" style="zoom:50%;" align="mid"/>
 
 **2、Binary Passage Retriever（BPR）**
 
@@ -32,7 +32,7 @@
 
 #### **实验**
 
-<img src="./pic/57c1b3b660d789d133674482f1ed5168.png" alt="57c1b3b660d789d133674482f1ed5168" style="zoom:80%;" align="left"/>
+<img src="./pic/57c1b3b660d789d133674482f1ed5168.png" alt="57c1b3b660d789d133674482f1ed5168" style="zoom:80%;" align="mid"/>
 
 
 
