@@ -16,19 +16,20 @@
 
 **（符号函数的近似)**
 
-<img src="./pic/7bd9db9a673f7d21f197b15fe2f942df.png" alt="7bd9db9a673f7d21f197b15fe2f942df" style="zoom:60%;" /><img src="./pic/a276c3df07959d90de30b36fea1a30af.png" alt="7bd9db9a673f7d21f197b15fe2f942df" style="zoom:60%;" />
+<img src="./pic/7bd9db9a673f7d21f197b15fe2f942df.png" alt="7bd9db9a673f7d21f197b15fe2f942df" style="zoom:60%;" />
+<img src="./pic/a276c3df07959d90de30b36fea1a30af.png" alt="7bd9db9a673f7d21f197b15fe2f942df" style="zoom:60%;" />
 
 **任务1损失函数**
 
-<img src="./pic/827beab7681119f65f310fbb860fe42a.png" style="zoom:60%;" align="left"/>
+<img src="./pic/827beab7681119f65f310fbb860fe42a.png" style="zoom:60%;" align="mid"/>
 
 **任务2损失函数**
 
-<img src="./pic/ffa26653142e39dbf9c08a72a13b99d4.png" style="zoom:60%;" align="left"/>
+<img src="./pic/ffa26653142e39dbf9c08a72a13b99d4.png" style="zoom:60%;" align="mid"/>
 
 **目标函数**
 
-<img src="./pic/7f1da51ddefc61c47ddfa6d2e6e86bd5.png" style="zoom:60%;" align="left"/>
+<img src="./pic/7f1da51ddefc61c47ddfa6d2e6e86bd5.png" style="zoom:60%;" align="mid"/>
 
 #### **实验**
 
