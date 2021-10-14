@@ -1,6 +1,6 @@
 ## 2021-EMNLP: Simple and Effective Unsupervised Redundancy Elimination to Compress Dense Vectors for Passage Retrieval
 
-摘要：为了节省Dense Passage Retrieval内存的使用，提出了降维、乘积量化，混合检索三种策略。1）降维包括有监督版：在fine-tune阶段最后一层接入线性层（其他层参数不变），同时在QA的目标函数中引入正则项$||W_{q} W_{p} - I||_{2}$（其中$W_{q}$和$W_{p}$分别是query侧和passage侧参数），无监督版：是对预训练query和passage进行PCA降维，使用PCA参数对预测时query和passage进行降维后计算相似分；2）使用乘积量化对dense vector进行压缩；3）混合检索是指 $score_{dense} + \alpha \cdot score_{spare}$ 。
+摘要：为了节省Dense Passage Retrieval内存的使用，提出了降维、乘积量化，混合检索三种策略。1）降维包括有监督版：在fine-tune阶段最后一层接入线性层（其他层参数不变），同时在QA的目标函数中引入正则项$W_{q} W_{p}^{T} - I_{2}$（其中$W_{q}$和$W_{p}$分别是query侧和passage侧参数），无监督版：是对预训练query和passage进行PCA降维，使用PCA参数对预测时query和passage进行降维后计算相似分；2）使用乘积量化对dense vector进行压缩；3）混合检索是指 $score_{dense} + \alpha \cdot score_{spare}$ 。
 
 模型：无介绍
 
