@@ -6,7 +6,7 @@
 
 **问题描述**：给定一个表格，表格中实体会有一段文本描述。对于一个query，从表格和文本描述数据库中找到答案。找答案的过程分为两步：第一步是link到相关答案的cell或passage，第二步是通过阅读理解从相关cell或passage中定位到答案。
 
-<img src="./pic/1723bc5e268668974a61ed9c3029ff04.png" style="zoom:60%;" align="left"/>
+<img src="./pic/1723bc5e268668974a61ed9c3029ff04.png" style="zoom:60%;" align="mid"/>
 
 
 
@@ -14,13 +14,13 @@
 
 问题类型：
 
-<img src="./pic/1634218196.png" style="zoom:60%;" align="left"/>
+<img src="./pic/1634218196.png" style="zoom:60%;" align="mi d"/>
 
 
 
 答案类型：
 
-<img src="./pic/f09389d7d555b218a9e34ed4c3da13e0.png" style="zoom:60%;" align="left"/>
+<img src="./pic/f09389d7d555b218a9e34ed4c3da13e0.png" style="zoom:60%;" align="mid"/>
 
 
 
@@ -36,13 +36,13 @@ table-only model： 将问题encode成向量，再解释（翻译）成SQL执行
 
 text-only model检索过程：检索相关doc，然后阅读理解定位答案
 
-<img src="./pic/daa91a3e6e43234e6389aba67b0af758.png" style="zoom:60%;" align="left"/>
+<img src="./pic/daa91a3e6e43234e6389aba67b0af758.png" style="zoom:60%;" align="mid"/>
 
 
 
 Hybrid model
 
-<img src="./pic/13e4966cf3a4c62fa6b912cf3c079bf1.png" style="zoom:80%;" align="left"/>
+<img src="./pic/13e4966cf3a4c62fa6b912cf3c079bf1.png" style="zoom:80%;" align="mid"/>
 
 <img src="./pic/1634221440.png" style="zoom:80%;" align="left"/>
 
@@ -54,7 +54,7 @@ Reasoning：推理部分包括三个步骤，第一个步是单元格预测（�
 
 ### 实验
 
-<img src="./pic/33e80aab55a0341708f3f2437e7b8335.png" style="zoom:80%;" align="left"/>
+<img src="./pic/33e80aab55a0341708f3f2437e7b8335.png" style="zoom:80%;" align="mid"/>
 
 
 
