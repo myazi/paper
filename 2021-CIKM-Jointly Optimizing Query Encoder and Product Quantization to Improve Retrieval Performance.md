@@ -19,7 +19,7 @@ $$
 $$
 将query和doc的相似性转为query和doc类中心相似性：
 $$
-s(q,\vec{d})\rightarrow \hat{s}(q,\vec{d}) = <q,\hat{vec{d}}>
+s(q,\vec{d})\rightarrow \hat{s}(q,\vec{d}) = <q,\hat{\vec{d}}>
 $$
 将wise ranking损失转化为 JPQ pair-wise ranking 损失：
 $$
