@@ -13,7 +13,7 @@
 $$
 c_{i,j} \in R^{\frac{D}{M}},{(1 \le i \le M, 1 \le j \le K)}
 $$
-将每一个点$d \in R^{D}$量化到类中心$\hat{\vec{d}}$，即如下：
+将每一个点$\vec{d} \in R^{D}$量化到类中心$\hat{\vec{d}}$，即如下：
 $$
 \vec{d} \rightarrow \hat{\vec{d}} = \vec{c_{1,\phi_{1}({d})}}, \vec{c_{2,\phi_{2}({d})}},.., \vec{c_{M,\phi_{M}({d})}} \in R^{D}
 $$
