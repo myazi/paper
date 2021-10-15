@@ -42,7 +42,7 @@ text-only model检索过程：检索相关doc，然后阅读理解定位答案
 
 Hybrid model：
 
-Linking：链接部分是将表格中每个单元格和passage 通过  Cell Matching 和 Passage Retriever 进行链接，链接方式包括指向型，大于小于等于等，linking后得到每一个单元格是一个五元组（content，location，description、source，score）
+Linking：链接部分是将表格中每个单元格和passage 通过  Cell Matching 和 Passage Retriever 进行链接，链接方式包括指向型，大于小于等于等，linking后得到每一个单元格是一个五元组（content，location，description、source，score），Content单元格内容, location 单元格在表格的行列, description 链接到passage的内容, source 表示链接的方式, score 表示链接的相似分$[0, 1]$.
 
 Reasoning：推理部分包括三个步骤，第一个步是单元格预测（相关性检索），得到相关的答案；第二步是单元格跳转，把可能相关的单元格检索出来，第三步是阅读理解，如果单元格没有link则直接输出单元格内容作为答案，否则进行阅读理解定位答案的起止位置。
 
