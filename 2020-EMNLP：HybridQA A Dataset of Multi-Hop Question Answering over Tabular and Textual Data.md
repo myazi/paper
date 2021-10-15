@@ -26,7 +26,7 @@
 
 推理类型：
 
-<img src="./pic/93b4bb42e7fb65e501dce5a2abaacbc3.png" style="zoom:60%;" align="left"/>
+<img src="./pic/93b4bb42e7fb65e501dce5a2abaacbc3.png" style="zoom:60%;" align="mid"/>
 
 
 
