@@ -23,7 +23,7 @@
 
 <img src="./pic/cf166fcce41ce43f88915ef74db4023e.png" style="zoom:50%;" align="mid"/>
 
-3、相比于DPR-768基线，PQ2($768*32bit \rightarrow  192* 8bit$)实现16倍压缩，耗时加速3倍，精度损失在$2\sim3\%$之间。
+3、相比于DPR-768基线，PQ2($768 * 32bit \rightarrow  192 * 8bit$)实现16倍压缩，耗时加速3倍，精度损失在$2\sim3%$之间。
 
 
 
