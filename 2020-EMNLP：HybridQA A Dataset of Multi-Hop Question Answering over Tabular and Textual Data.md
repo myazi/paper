@@ -44,7 +44,7 @@ Hybrid model
 
 <img src="./pic/13e4966cf3a4c62fa6b912cf3c079bf1.png" style="zoom:80%;" align="mid"/>
 
-<img src="./pic/1634221440.png" style="zoom:80%;" align="left"/>
+<img src="./pic/1634221440.png" style="zoom:80%;" align="mid"/>
 
 Linking：链接部分是将表格中每个单元格和passage 通过  Cell Matching 和 Passage Retriever 进行链接，链接方式包括指向型，大于小于等于等，linking后得到每一个单元格是一个五元组（content，location，description、source，score）
 
