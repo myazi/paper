@@ -40,15 +40,15 @@ text-only model检索过程：检索相关doc，然后阅读理解定位答案
 
 
 
-Hybrid model
+Hybrid model：
+Linking：链接部分是将表格中每个单元格和passage 通过  Cell Matching 和 Passage Retriever 进行链接，链接方式包括指向型，大于小于等于等，linking后得到每一个单元格是一个五元组（content，location，description、source，score）
+
+Reasoning：推理部分包括三个步骤，第一个步是单元格预测（相关性检索），得到相关的答案；第二步是单元格跳转，把可能相关的单元格检索出来，第三步是阅读理解，如果单元格没有link则直接输出单元格内容作为答案，否则进行阅读理解定位答案的起止位置。
 
 <img src="./pic/13e4966cf3a4c62fa6b912cf3c079bf1.png" style="zoom:80%;" align="mid"/>
 
 <img src="./pic/1634221440.png" style="zoom:80%;" align="mid"/>
 
-Linking：链接部分是将表格中每个单元格和passage 通过  Cell Matching 和 Passage Retriever 进行链接，链接方式包括指向型，大于小于等于等，linking后得到每一个单元格是一个五元组（content，location，description、source，score）
-
-Reasoning：推理部分包括三个步骤，第一个步是单元格预测（相关性检索），得到相关的答案；第二步是单元格跳转，把可能相关的单元格检索出来，第三步是阅读理解，如果单元格没有link则直接输出单元格内容作为答案，否则进行阅读理解定位答案的起止位置。
 
 
 
