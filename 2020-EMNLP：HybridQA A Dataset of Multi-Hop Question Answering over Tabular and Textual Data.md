@@ -46,6 +46,20 @@ Linking：链接部分是将表格中每个单元格和passage 通过  Cell Matc
 
 Reasoning：推理部分包括三个步骤，第一个步是单元格预测（相关性检索），得到相关的答案；第二步是单元格跳转，把可能相关的单元格检索出来，第三步是阅读理解，如果单元格没有link则直接输出单元格内容作为答案，否则进行阅读理解定位答案的起止位置。
 
+单元格预测：(从目标函数可以看出，单元格预测也是基于双塔式网络结构，计算q和c的相似度)
+
+<img src="./pic/fd730f98ea2617c4ac7f89d980038ffa.png" style="zoom:80%;" align="left"/>
+
+单元格跳转
+
+<img src="./pic/eb65bffc88c4103914a70e27db3cbe38.png" style="zoom:80%;" align="left"/>
+
+阅读理解
+
+<img src="./pic/46efc116d9259d81c5003fd521f8a87d.png" style="zoom:80%;" align="left"/>
+
+
+### 
 <img src="./pic/13e4966cf3a4c62fa6b912cf3c079bf1.png" style="zoom:80%;" align="mid"/>
 
 <img src="./pic/1634221440.png" style="zoom:80%;" align="mid"/>
