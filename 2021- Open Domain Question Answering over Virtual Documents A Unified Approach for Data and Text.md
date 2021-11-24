@@ -13,12 +13,14 @@
 
 
 2、数据输入形式由triple改为pairs
+考虑triple:三元组之间对一个实体而言信息是割裂开的， 难以在三元组信息上做推理（比如：詹姆斯的在骑士和湖人的效忠时间那个长）
 
 同样以勒布朗詹姆斯表为例： 
 
 triple： [表， title，勒布朗詹姆斯]， [勒布朗詹姆斯，league， NBA]， 表的title是勒布朗詹姆斯， 勒布朗詹姆斯的league是NBA，三元组作为模型的输入
 
 pairs： [title, 勒布朗詹姆斯]，[league， NBA]，title是勒布朗詹姆斯，league是NBA 组成pairs作为模型的输入
+
 
 3、过滤规则
 
