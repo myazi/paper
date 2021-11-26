@@ -24,7 +24,7 @@ pairs： [title, 勒布朗詹姆斯]，[league， NBA]，title是勒布朗詹姆
 
 3、过滤规则
 
-在DART数据集基础上[https://aclanthology.org/2021.naacl-main.37.pdf]，考虑到data-to-text中对data数据的覆盖和准确（简短精准），记subsample training data模型记为 T，在T的基础上提出一个基于Rouge-1[https://aclanthology.org/W04-1013.pdf]的打分方式过来掉低于阈值的训练数据 记为 T-F（过滤掉训练集中，摘要生成Rouge-1低分的数据）。但是T-F过后还是会存在单元格中单词过长的问题，提出一种迭代T-F的方式：即将上一轮T-F产出的数据继续通过Rouge-1打分进行过滤，多次迭代后的模型记为ID-T。 做完以上数据处理后，following T5-large模型进行data-to-text。
+在DART数据集基础上[https://aclanthology.org/2021.naacl-main.37.pdf]， 考虑到data-to-text中对data数据的覆盖和准确（简短精准），记subsample training data模型记为 T，在T的基础上提出一个基于Rouge-1[https://aclanthology.org/W04-1013.pdf]的打分方式过来掉低于阈值的训练数据 记为 T-F（过滤掉训练集中，摘要生成Rouge-1低分的数据）。但是T-F过后还是会存在单元格中单词过长的问题，提出一种迭代T-F的方式：即将上一轮T-F产出的数据继续通过Rouge-1打分进行过滤，多次迭代后的模型记为ID-T。 做完以上数据处理后，following T5-large模型进行data-to-text。
 
 
 
